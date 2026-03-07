@@ -1,45 +1,41 @@
-# Dinner: Public Data Repository
+# grossman-data
 
-This repository hosts the cleaned datasets that students download via the `grossman` package.
+Public data repository for the [grossman](https://github.com/a-torgovitsky/grossman) R package.
 
-## Structure
+## Contents
 
-```
-dinner/
-├── data/           # Parquet/RDS files served to students
-│   ├── labor_data.parquet
-│   └── ...
-└── README.md
-```
+| File | Dataset | Rows | Cols |
+|------|---------|------|------|
+| `eskom.parquet` | Dinkelman (2011) electrification data | 1816 | 18 |
+| `example_wages.parquet` | Simulated wage data | 50 | 8 |
 
 ## How It Works
 
-1. Cleaning scripts in `kitchen/` produce `.parquet` files
+1. Cleaning scripts in a private workspace produce `.parquet` files
 2. Files are copied here via `publish_to_dinner()`
-3. This repo is public on GitHub
-4. The `grossman` package fetches from raw.githubusercontent.com URLs
-
-## Adding a New Dataset
-
-1. Clean the data in `kitchen/scripts/`
-2. Run `publish_to_dinner("dataset_name")` to copy here
-3. Commit and push this repo
-4. Update `grossman/inst/manifest.csv` with the new dataset
+3. The `grossman` R package fetches from raw.githubusercontent.com URLs
+4. Data is cached locally on students' machines after first download
 
 ## URL Pattern
 
-Files are served at:
 ```
-https://raw.githubusercontent.com/{username}/dinner/main/data/{filename}.parquet
+https://raw.githubusercontent.com/a-torgovitsky/grossman-data/main/data/{filename}.parquet
 ```
 
-Update the `DINNER_BASE_URL` in `grossman/R/config.R` to match your GitHub username.
+## For Maintainers
+
+To add a new dataset:
+
+1. Clean data in the private workspace (`kitchen/scripts/`)
+2. Run `publish_to_dinner("dataset_name")` in R
+3. Commit and push:
+   ```bash
+   git add data/
+   git commit -m "Add {dataset_name}"
+   git push
+   ```
+4. Update documentation in the grossman package
 
 ## Rate Limits
 
-GitHub's raw.githubusercontent.com CDN has generous rate limits. For a typical class size (< 200 students), you should never hit issues. Each student only downloads once due to local caching.
-
-If you do hit limits, consider:
-- GitHub Releases (attach files as release assets)
-- A simple static file server
-- Cloudflare R2 or similar (free egress)
+GitHub's CDN has generous rate limits. For typical class sizes (< 200 students), you won't hit issues since each student downloads once (cached locally).
