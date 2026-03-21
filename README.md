@@ -6,6 +6,7 @@ Public data repository for the [grossman](https://github.com/a-torgovitsky/gross
 
 | File | Dataset | Rows | Cols |
 |------|---------|------|------|
+| `cps.parquet` | IPUMS CPS wage data (Blau & Kahn 2017 sample) | 48371 | 16 |
 | `eskom.parquet` | Dinkelman (2011) electrification data | 1816 | 18 |
 | `example_wages.parquet` | Simulated wage data | 50 | 8 |
 
