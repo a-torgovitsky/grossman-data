@@ -1,0 +1,18 @@
+{
+  "incwage": "Wage and salary income",
+  "sex": "Sex (Male, Female)",
+  "age": "Age in years",
+  "educ": "Education level",
+  "state": "US state of residence",
+  "inctot": "Total personal income",
+  "race": "Race",
+  "marst": "Marital status",
+  "hispan": "Hispanic origin",
+  "ind": "Industry code (IPUMS CPS)",
+  "classwkr": "Class of worker",
+  "wkswork1": "Weeks worked last year",
+  "uhrsworkly": "Usual hours worked per week last year",
+  "metarea": "Metropolitan area",
+  "annualhours": "Hours worked last year (calculated: wkswork1 * uhrsworkly)",
+  "wage": "Hourly wage (calculated: incwage / annualhours)"
+}

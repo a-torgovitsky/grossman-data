@@ -1,0 +1,10 @@
+{
+  "id": "Unique respondent identifier",
+  "wage": "Hourly wage in USD",
+  "education_years": "Years of formal education",
+  "experience": "Years of work experience",
+  "age": "Age in years",
+  "female": "1 if female, 0 if male",
+  "urban": "1 if urban residence, 0 if rural",
+  "region": "Geographic region (Northeast, South, Midwest, West)"
+}

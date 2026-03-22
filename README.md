@@ -4,23 +4,30 @@ Public data repository for the [grossman](https://github.com/a-torgovitsky/gross
 
 ## Contents
 
-| File | Dataset | Rows | Cols |
-|------|---------|------|------|
-| `cps.parquet` | IPUMS CPS wage data (Blau & Kahn 2017 sample) | 48371 | 16 |
-| `eskom.parquet` | Dinkelman (2011) electrification data | 1816 | 18 |
-| `example_wages.parquet` | Simulated wage data | 50 | 8 |
+| Dataset | Rows | Cols | Files |
+|---------|------|------|-------|
+| `cps` — IPUMS CPS wage data (Blau & Kahn 2017 sample) | 48371 | 16 | `.rds` `.json` |
+| `eskom` — Dinkelman (2011) electrification data | 1816 | 18 | `.rds` `.json` |
+| `example_wages` — Simulated wage data | 50 | 8 | `.rds` `.json` |
+
+## Data Format
+
+Each dataset is distributed as two files:
+
+- **`{name}.rds`** — R data file with variable labels embedded as column attributes. R users get labels automatically via `attr(df$column, "label")`.
+- **`{name}.json`** — JSON metadata file mapping variable names to human-readable labels. Useful for non-R users or for quick reference.
 
 ## How It Works
 
-1. Cleaning scripts in a private workspace produce `.parquet` files
+1. Cleaning scripts in a private workspace produce `.rds` + `.json` files
 2. Files are copied here via `publish_to_dinner()`
-3. The `grossman` R package fetches from raw.githubusercontent.com URLs
+3. The `grossman` R package fetches `.rds` files from raw.githubusercontent.com URLs
 4. Data is cached locally on students' machines after first download
 
 ## URL Pattern
 
 ```
-https://raw.githubusercontent.com/a-torgovitsky/grossman-data/main/data/{filename}.parquet
+https://raw.githubusercontent.com/a-torgovitsky/grossman-data/main/data/{name}.rds
 ```
 
 ## For Maintainers

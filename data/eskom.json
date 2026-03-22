@@ -1,0 +1,20 @@
+{
+  "eskom": "Treatment: 1 if electrified 1996-2001, 0 otherwise",
+  "gradient": "Average community land gradient (instrument)",
+  "km_to_grid": "Distance from community centroid to nearest electricity grid point (km)",
+  "km_to_road": "Distance to nearest road (km)",
+  "km_to_town": "Distance to nearest town (km)",
+  "hh_dens": "Household density in 1996",
+  "hh_pov": "Fraction of households below ZAR 6,000/year in 1996",
+  "pr_female_hh_head": "Fraction of households headed by a female",
+  "sex_ratio": "Ratio of African adult women to men in 1996",
+  "pr_indian_or_white": "Fraction of households headed by Indian or white person",
+  "pr_hs_men": "Fraction of African men with matric (high school)",
+  "pr_hs_women": "Fraction of African women with matric (high school)",
+  "d_water_access": "Change in fraction of HHs with water source nearby",
+  "d_toilet": "Change in fraction of HHs with flush toilet",
+  "d_pr_emp_f": "Change in female employment rate (2001 - 1996)",
+  "d_pr_emp_m": "Change in male employment rate (2001 - 1996)",
+  "district": "District code",
+  "subdistrict": "Subdistrict (main place) code"
+}
