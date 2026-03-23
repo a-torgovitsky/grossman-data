@@ -1,0 +1,20 @@
+{
+  "village": "Village ID",
+  "year": "Year",
+  "cgvo": "CGVO has been assigned",
+  "l_subsidy_rate": "Log subsidized population (per 1000)",
+  "l_poor_housing_rate": "Log poor housing households (per 100)",
+  "l_poor_reg_rate": "Log registered poor households (per 100)",
+  "l_disability_rate": "Log population with disabilities (per 1000)",
+  "district": "District ID",
+  "precipitation": "Daily average precipitation (inches)",
+  "temperature": "Daily average temperature (Fahrenheit)",
+  "Lead_D1": "Relative time -1",
+  "Lead_D2": "Relative time -2",
+  "Lead_D3": "Relative time -3",
+  "Lead_D4_plus": "Relative time <= -4",
+  "D0": "Relative time 0",
+  "Lag_D1": "Relative time 1",
+  "Lag_D2": "Relative time 2",
+  "Lag_D3_plus": "Relative time >= 3"
+}

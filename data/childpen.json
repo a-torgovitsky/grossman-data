@@ -1,0 +1,14 @@
+{
+  "id": "Person identifier",
+  "year": "Survey year",
+  "earn": "Earnings",
+  "byear": "Year of first childbirth",
+  "female": "Female indicator",
+  "hours": "Hours worked",
+  "full_time": "Full-time indicator",
+  "age": "Age at pregnancy",
+  "educ": "Education",
+  "industry": "Industry of household head",
+  "race": "Race/ethnicity",
+  "region": "Census region"
+}

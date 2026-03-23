@@ -1,0 +1,23 @@
+{
+  "score": "Test score",
+  "incent": "Treatment: received incentive (1=yes, 0=no)",
+  "us_school1_reg": "US school 1, regular class",
+  "us_school1_hon": "US school 1, honors class",
+  "us_school2_reg": "US school 2, regular class",
+  "us_school2_hon": "US school 2, honors class",
+  "us": "United States indicator (1=US, 0=China)",
+  "group": "Treatment group assignment",
+  "school": "School identifier",
+  "female": "Female indicator (1=female, 0=male)",
+  "black": "Black",
+  "asian": "Asian",
+  "hisp_white": "Hispanic White",
+  "hisp_nw": "Hispanic Non-white",
+  "other": "Other race/ethnicity",
+  "age": "Age",
+  "agemissing": "Age missing indicator",
+  "sh_school2": "Share school 2",
+  "sh_school3": "Share school 3",
+  "sh_school4": "Share school 4",
+  "t2018": "Year 2018 indicator"
+}

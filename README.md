@@ -6,10 +6,14 @@ Public data repository for the [grossman](https://github.com/a-torgovitsky/gross
 
 | Dataset | Description | Rows | Cols | Variants |
 |---------|-------------|------|------|----------|
+| `bureaucrats` | He & Wang (2017) village officials in China | 2809 | 18 | |
+| `childpen` | Cortés & Pan (2023) child penalty panel | 54365 | 12 | |
 | `cps` | IPUMS CPS wage data (Blau & Kahn 2017 sample) | 48371 | 16 | |
 | `eskom` | Dinkelman (2011) electrification data | 1816 | 18 | |
 | `psid` | Blundell, Pistaferri, & Preston (2008) earnings & consumption | 4566 | 12 | `unbalanced` |
+| `pisa` | Gneezy et al. (2019) test score incentive experiment | 1103 | 21 | |
 | `tenncare` | Garthwaite, Gross, & Notowidigdo (2014) DiD | 136 | 29 | `micro` |
+| `unions` | Vella & Verbeek (1998) union wage panel | 4360 | 36 | |
 
 ## Data Format
 
