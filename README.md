@@ -9,6 +9,10 @@ Public data repository for the [grossman](https://github.com/a-torgovitsky/gross
 | `cps` — IPUMS CPS wage data (Blau & Kahn 2017 sample) | 48371 | 16 | `.rds` `.json` |
 | `eskom` — Dinkelman (2011) electrification data | 1816 | 18 | `.rds` `.json` |
 | `example_wages` — Simulated wage data | 50 | 8 | `.rds` `.json` |
+| `psid` — Blundell, Pistaferri, & Preston (2008) balanced panel | 4566 | 12 | `.rds` `.json` |
+| `psid_unbalanced` — PSID unbalanced panel (variant) | 10370 | 12 | `.rds` `.json` |
+| `tenncare` — Garthwaite, Gross, & Notowidigdo (2014) DiD | 136 | 29 | `.rds` `.json` |
+| `tenncare_micro` — TennCare individual-level (variant) | 454260 | 28 | `.rds` `.json` |
 
 ## Data Format
 

@@ -1,0 +1,14 @@
+{
+  "id": "Household head person ID",
+  "year": "Year",
+  "earn": "Earnings (household head)",
+  "cons": "Consumption (total)",
+  "cons_nd": "Consumption (non-durables)",
+  "cons_srv": "Consumption (services, non-housing)",
+  "educ": "Education (household head)",
+  "age": "Age (household head)",
+  "cons_hs": "Consumption (housing)",
+  "kids": "Number of kids in household",
+  "fsize": "Family size of household",
+  "earn2nd": "Earnings (2nd member)"
+}
