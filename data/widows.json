@@ -1,0 +1,18 @@
+{
+  "fert": "Total fertilizer use (kg)",
+  "noninh": "Non-inheritance land access",
+  "fertsub": "Any free fertilizer received",
+  "hh_landaccess": "Household land access",
+  "numadults": "Number of adult equivalents",
+  "district": "District",
+  "hh_couple": "Household is a couple",
+  "sea_group": "SEA group",
+  "hh_number_cattle": "Number of cattle",
+  "hh_aindex": "Asset index",
+  "female_agriculture": "Female agriculture indicator",
+  "tribesh1": "(sum) sea_perc_tribe1",
+  "tribesh2": "(sum) sea_perc_tribe19",
+  "tribesh3": "(sum) sea_perc_tribe43",
+  "tribesh4": "(sum) sea_perc_tribe48",
+  "tribesh5": "(sum) sea_perc_tribe49"
+}

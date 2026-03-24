@@ -1,0 +1,9 @@
+{
+  "county": "County FIPS code",
+  "year": "Year",
+  "hyear": "First hurricane year (Inf if none)",
+  "govtrans": "Log per capita government transfers",
+  "bustrans": "Log per capita business transfers",
+  "emprate": "Total adult employment rate",
+  "avgwage": "Log average wage and salary disbursements"
+}

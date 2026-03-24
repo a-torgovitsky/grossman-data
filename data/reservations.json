@@ -1,0 +1,21 @@
+{
+  "forced": "Forced coexistence index",
+  "historical.centralization": "Historical political centralization",
+  "per.capita.income": "Per capita income",
+  "county.per.capita.income": "County per capita income",
+  "county.unemployment": "County unemployment rate",
+  "distance.to.nearest.city": "Distance to nearest city (km)",
+  "ruggedness": "Terrain ruggedness",
+  "reservation.area": "Reservation area (sq km)",
+  "ea.calories": "Ethnographic Atlas: caloric dependence on agriculture",
+  "ea.sedentary": "Ethnographic Atlas: settlement pattern (sedentary)",
+  "ea.complexity": "Ethnographic Atlas: jurisdictional hierarchy",
+  "ea.wealth.distinctions": "Ethnographic Atlas: class stratification",
+  "population": "Population",
+  "adult.population.share": "Adult population share",
+  "casino": "Has a casino",
+  "state": "State",
+  "tribeid": "Ethnographic Atlas tribe ID",
+  "gold": "Historical gold deposits (instrument)",
+  "silver": "Historical silver deposits (instrument)"
+}

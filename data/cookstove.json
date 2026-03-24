@@ -1,0 +1,9 @@
+{
+  "SMS_date": "SMS survey date",
+  "respondent_id": "Respondent ID",
+  "amount_weekly": "Weekly charcoal spending",
+  "jikokoa": "Bought cookstove",
+  "wtp": "Willingness to pay (USD)",
+  "amount_weekly_pre": "Pre-treatment weekly charcoal spending",
+  "price": "Offered price (USD)"
+}

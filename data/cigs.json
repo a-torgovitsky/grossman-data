@@ -1,0 +1,9 @@
+{
+  "state": "State",
+  "year": "Year",
+  "cigsales": "Cigarette sales per capita",
+  "gdp": "Log GDP per capita",
+  "price": "Average retail price of cigarettes",
+  "age1524": "Proportion of population aged 15-24",
+  "beer": "Per capita beer consumption"
+}

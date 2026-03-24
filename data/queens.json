@@ -1,0 +1,19 @@
+{
+  "kingdom": "Kingdom",
+  "year": "Year",
+  "inwar": "Any participation in interstate conflict",
+  "queen": "Queen regnant indicator",
+  "fbmale": "Firstborn is male",
+  "sister": "Number of female siblings",
+  "century": "Century indicator",
+  "decade": "Decade indicator",
+  "ruler1_name": "Name of ruler 1",
+  "ruler2_name": "Name of ruler 2 (co-ruler)",
+  "firstborn_missinggender": "Firstborn missing gender",
+  "anylegit": "Any legitimate non-missing birth-year heir",
+  "anylegit_missingbirthyear": "Any legitimate missing birth-year heir",
+  "previous_corulers_unrel": "Previous co-rulers unrelated",
+  "totsib": "Total siblings",
+  "reign_iv": "Reign cluster ID (instrument)",
+  "sibling_missinggender": "Sibling with missing gender"
+}
