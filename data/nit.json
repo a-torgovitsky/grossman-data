@@ -1,0 +1,14 @@
+{
+  "id": "Household ID (enrollment family)",
+  "year": "Year relative to enrollment (0=baseline, 1-3=experimental)",
+  "treat": "Assigned to NIT plan (1=treatment, 0=control)",
+  "strata": "Randomization stratum (income x race x site)",
+  "site": "Experiment site (seattle/denver)",
+  "dual": "Dual-headed household",
+  "black": "Black",
+  "white": "White",
+  "hisp": "Hispanic",
+  "employ": "All household heads employed",
+  "hours": "Total hours worked, all heads (monthly avg)",
+  "earnings": "Total earnings, all heads (monthly avg, nominal $)"
+}

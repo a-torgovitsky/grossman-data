@@ -14,6 +14,7 @@ Public data repository for the [grossman](https://github.com/a-torgovitsky/gross
 | `eskom` | Dinkelman (2011) electrification data | 1816 | 18 | |
 | `hurricane` | Deryugina (2017) hurricane fiscal costs | 49698 | 7 | |
 | `kenyagrid` | Lee, Miguel, & Wolfram (2020) Kenya rural electrification | 4368 | 52 | |
+| `nit` | Negative income tax experiment (SIME/DIME) | 9720 | 12 | |
 | `kindy` | Gelbach (2002) kindergarten & maternal labor supply | 17817 | 23 | |
 | `olyset` | Dupas (2014) mosquito net adoption | 1078 | 4 | |
 | `pisa` | Gneezy et al. (2019) test score incentive experiment | 1103 | 21 | |
